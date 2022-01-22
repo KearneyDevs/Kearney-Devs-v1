@@ -1,6 +1,7 @@
 import './App.css';
 
 import Header from './components/header/Header';
+import Profile from './components/profile/Profile';
 import Work from './components/work/Work';
 import Bio from './components/bio/Bio';
 import Interests from './components/interests/Interests';
@@ -12,8 +13,7 @@ function App() {
     <div className="App">
       <Header />
 
-      <h1>Shane Kearney</h1>
-      <p>KearneyDevs - Front-End Developer</p>
+      <Profile />
 
       <Work />
       <Bio />

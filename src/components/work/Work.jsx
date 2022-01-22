@@ -3,7 +3,7 @@ const Work = () => {
         <section>
             <h3>Work</h3>
 
-            <p>Brief Description about yourself and what you are doing.</p>
+            <p>Brief Description about your experience.</p>
         </section>
     )
 }
