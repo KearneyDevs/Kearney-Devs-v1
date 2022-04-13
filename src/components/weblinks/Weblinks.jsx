@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Title} from '../styled/Styles';
 import { AiFillGithub } from 'react-icons/ai';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { AiOutlineInstagram } from 'react-icons/ai';
@@ -18,6 +19,8 @@ const List = styled.ul`
     a {
         margin-left: 1rem; 
         text-decoration: none;
+        font-weight: 600;
+        color: ${props => props.theme.colors.defaultText}
     }
 `
 
@@ -27,7 +30,7 @@ const Weblinks = props => {
 
     return (
         <section>
-            <h3>{props.section.title}</h3>
+            <Title>{props.section.title}</Title>
             
             <List>
                 <li key={props.section.content[0].id}>

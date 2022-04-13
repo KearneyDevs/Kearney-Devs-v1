@@ -84,7 +84,12 @@ export const sections = [
         {
           id: 44,
           date: "2017",
-          context: "to present."
+          context: "Worked as a SharePoint Developer at the Tesco Customer Engagement Centre, Dundee."
+        },
+        {
+          id: 45,
+          date: "2022",
+          context: "Left Tesco and now focusing on personal development."
         },
       ]
     }, 

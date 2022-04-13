@@ -1,12 +1,17 @@
+import GlobalStyle from './globalStyles';
+import Theme from './Theme';
 import { sections } from './data';
 import Components from './components';
 
 function App() {
   
   return (
-    <div className="App">
-      {sections.map(section => Components(section))}
-    </div>
+    <Theme>
+      <div className="App">
+        <GlobalStyle />
+        {sections.map(section => Components(section))}
+      </div>
+    </Theme>
   );
 }
 
