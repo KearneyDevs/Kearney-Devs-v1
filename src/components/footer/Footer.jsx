@@ -1,7 +1,8 @@
 const Footer = () => {
+
     return (
         <section>
-            <h3>Footer</h3>
+            <p>&copy;{new Date().getFullYear()} Shane Kearney.  All Rights Reserved.</p>
         </section>
     )
 }
