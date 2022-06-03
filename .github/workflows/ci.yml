@@ -1,0 +1,21 @@
+# This name will appear in the Actions tab of the github repo
+name: Cypress Tests
+
+# Specifies the trigger for this workflow.  This uses the push event.  Everytime someone pushes a change to the repo
+# or merges a pull request.  This is triggered by a push to every branch.
+on: [push]
+
+# Defines a job named cypress-run.  The keys within it will define the properties of the job
+# runs-on configures the job on the latest version of ubuntu, which will execute a fresh virtual machine hosted 
+# by github
+# Steps group together all the steps to run in the cypress-run job.  Each item nested under this section is a seperate
+# action or shell script.
+jobs: 
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
