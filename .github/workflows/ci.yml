@@ -3,7 +3,10 @@ name: Cypress Tests
 
 # Specifies the trigger for this workflow.  This uses the push event.  Everytime someone pushes a change to the repo
 # or merges a pull request.  This is triggered by a push to every branch.
-on: [push]
+on:
+  push:
+  schedule:
+    - cron: '0 0 * * 1'
 
 # Defines a job named cypress-run.  The keys within it will define the properties of the job
 # runs-on configures the job on the latest version of ubuntu, which will execute a fresh virtual machine hosted 
@@ -17,5 +20,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Cypress run
+      - name: Cypress run 🧪
         uses: cypress-io/github-action@v2
+      - run: npm run report:merge
+      - run: npm run report:mocha
+
+      - name: Reports deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        with:
+            BRANCH: gh-pages
+            FOLDER: mochawesome-report

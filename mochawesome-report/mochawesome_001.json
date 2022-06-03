@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-06-03T15:54:23.806Z",
+    "end": "2022-06-03T15:54:23.846Z",
+    "duration": 40,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "accb2e8c-e4a5-4e5c-8ae1-c67d30f7250f",
+      "title": "",
+      "fullFile": "cypress/integration/test.spec.js",
+      "file": "cypress/integration/test.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "312e1399-596e-4406-86d4-66bd9abf9416",
+          "title": "Kearney Devs Portfolio Interface",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "362a8b68-78d6-4f82-9574-c6d0fd19106d",
+              "title": "it provides a way to keep tests easier to read and organized.",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "This is your test case",
+                  "fullTitle": "Kearney Devs Portfolio Interface it provides a way to keep tests easier to read and organized. This is your test case",
+                  "timedOut": null,
+                  "duration": 21,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "expect(true).to.eq(true);",
+                  "err": {},
+                  "uuid": "0596c59f-d214-4fd2-8a2f-04ebbaa66ec2",
+                  "parentUUID": "362a8b68-78d6-4f82-9574-c6d0fd19106d",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "0596c59f-d214-4fd2-8a2f-04ebbaa66ec2"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 21,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reporterDir": "mochawesome-report",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
