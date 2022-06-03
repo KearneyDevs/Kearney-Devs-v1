@@ -10,6 +10,7 @@ describe('Given the Users API', () => {
                 // all assertions should be placed here
                 expect(response.status).to.eq(200)
                 expect(response.body.quantidade).to.eq(response.body.usuarios.length)
+                // cy.log(JSON.stringify(response))
                 // Tests each item within the usuarios and that they should not equal null
                 Cypress._.each(response.body.usuarios, (usuario) => {
                     expect(usuario.email).to.not.be.null
@@ -29,12 +30,13 @@ describe('Given the Users API', () => {
                 method: 'GET',
                 url: '/usuarios',
                 qs: {
-                    _id: '0uxuPY0cbmQhpEz1'
+                    _id: '2zZLQCn1wyYmiGUz'
                 }
             })
             .should((response) => {
                 expect(response.status).to.eq(200)
-                expect(response.body.usuarios[0].nome).to.eq('Fulano da Silva')
+                // cy.log(JSON.stringify(response))
+                expect(response.body.usuarios[0].nome).to.eq('Abel Goodwin I')
             });
         });
     });
