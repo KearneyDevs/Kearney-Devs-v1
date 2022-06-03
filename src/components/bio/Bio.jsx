@@ -1,26 +1,12 @@
-import styled from 'styled-components';
-import {Title} from '../styled/Styles';
-
-const Table = styled.table`
-
-    td {
-        padding-bottom: 1rem;
-        vertical-align: top;
-    }
-
-    td:first-child {
-        font-weight: 600;
-        padding-right: 2rem;  
-        color: ${props => props.theme.colors.primary};
-    }
-`
+import {Title, Section} from '../styled/Styles';
+import { Table } from './Bio.style';
 
 const Bio = props => {
 
     console.log(props);
 
     return (
-        <section>
+        <Section>
             <Title>{props.section.title}</Title>
             
             <Table>
@@ -36,7 +22,7 @@ const Bio = props => {
                     
                 </tbody>
             </Table>            
-        </section>
+        </Section>
     )
 }
 
