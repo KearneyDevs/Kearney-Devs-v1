@@ -6,3 +6,6 @@ export const Title = styled.h3`
     text-underline-offset: 0.8rem;
     text-decoration-thickness: 2px;
 `
+export const Section = styled.section`
+    margin: 2rem;
+`

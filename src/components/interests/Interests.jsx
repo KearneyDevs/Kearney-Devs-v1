@@ -1,10 +1,10 @@
-import {Title} from '../styled/Styles';
+import {Title, Section} from '../styled/Styles';
 
 const Interests = props => {
     return (
-        <section>
+        <Section>
             <Title>{props.section.title}</Title>
-        </section>
+        </Section>
     )
 }
 

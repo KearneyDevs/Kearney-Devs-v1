@@ -1,8 +1,8 @@
-import { Title } from "../styled/Styles";
+import { Title, Section } from "../styled/Styles";
 
 const Work = props => {
     return (
-        <section>
+        <Section>
             <Title>{props.section.title}</Title>
             {props.section.content.map(p => {
                 return (
@@ -10,7 +10,7 @@ const Work = props => {
                 )
             })}
           
-        </section>
+        </Section>
     )
 }
 
