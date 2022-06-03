@@ -40,7 +40,6 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^9.6.0",
-    "faker": "^6.6.6"
+    "cypress": "^9.6.0"
   }
 }
