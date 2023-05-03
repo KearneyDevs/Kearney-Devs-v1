@@ -40,13 +40,6 @@ export const sections = [
         value: "5 Years",
       },
     ],
-    description: [
-      {
-        id: 26,
-        paragraph:
-          "I am a self-taught front-end developer, from the county of Ard Mhacha, Éire, now living in Scotland's capital, Edinburgh. I have a passion for design and development, to utilise my craft and create value where digitally required.  I take a mobile-first approach and have a keen interest in the Psychology of Interaction Design.",
-      },
-    ],
   },
   {
     id: 3,
@@ -84,7 +77,15 @@ export const sections = [
         id: 43,
         date: "2015",
         context:
-          "Game Design & Production Management with Honours achieved from the University of Abertay, Dundee.",
+          "Game Design & Production Management with Honours achieved from the",
+        linkOne: {
+          text: "University of Abertay",
+          link: "https://www.abertay.ac.uk/",
+        },
+        linkTwo: {
+          text: "Dundee",
+          link: "https://www.google.com/maps/place/dundee/data=!4m2!3m1!1s0x48864144ab639cd3:0x94e43b1e384be52a?sa=X&ved=2ahUKEwiX7p6dhNr-AhUtQkEAHbPlB8kQ8gF6BAhwEAI",
+        },
       },
       {
         id: 44,
