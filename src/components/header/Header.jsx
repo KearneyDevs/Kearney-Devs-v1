@@ -7,11 +7,11 @@ const Header = (props) => {
 
   return (
     <Nav>
-      <a href="#">
+      <a href="/">
         <img src={logo} width="57px" height="18px" alt="Shane Kearney" />
       </a>
 
-      <a href="#">
+      <a href="/">
         <AiOutlineMenu size={32} color="#1BDFB0" />
       </a>
     </Nav>
