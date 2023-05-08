@@ -4,14 +4,13 @@ export const ProfileContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4rem 0 2rem 0;
+  margin: 2rem 0;
 
   img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     border: ${(props) => `3px solid ${props.theme.colors.primary}`};
-
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

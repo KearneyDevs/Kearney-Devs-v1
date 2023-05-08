@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Table = styled.table`
   width: 100%;
-  max-width: 450px;
   margin-bottom: 2rem;
 
   tr {

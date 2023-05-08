@@ -12,9 +12,12 @@ export const Title = styled.h3`
   text-decoration-thickness: 2px;
 `;
 export const Section = styled.section`
-  margin: auto;
-  width: 100%;
-  max-width: 400px;
+  margin: 0 auto 2rem auto;
+  max-width: 450px;
+  word-wrap: break-word;
+  @media (max-width: 450px) {
+    margin: 0 1rem 2rem 1rem;
+  }
 `;
 
 export const Content = styled.div`
