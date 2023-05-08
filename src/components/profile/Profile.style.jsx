@@ -27,38 +27,3 @@ export const ProfileContainer = styled.div`
     color: ${(props) => props.theme.colors.secondary};
   }
 `;
-
-export const Table = styled.table`
-  width: 100%;
-  max-width: 450px;
-  margin-bottom: 2rem;
-
-  tr {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  td {
-    vertical-align: top;
-    color: ${(props) => props.theme.colors.secondary};
-    text-align: right;
-    line-height: 1.5rem;
-  }
-
-  td:first-child {
-    font-weight: 600;
-    padding-right: 2rem;
-    color: ${(props) => props.theme.colors.primary};
-    text-align: left;
-  }
-`;
-
-export const Content = styled.div`
-  a,
-  a:visited {
-    color: rgb(84, 255, 234);
-    opacity: 0.84;
-    font-weight: 600;
-    text-decoration: none;
-  }
-`;

@@ -43,38 +43,65 @@ export const sections = [
   },
   {
     id: 3,
+    title: "",
+    component: "about",
+    content: [
+      {
+        id: 32,
+        topic: "Profession",
+        value: "Front-End Developer",
+      },
+      {
+        id: 33,
+        topic: "Framework",
+        value: "ReactJS",
+      },
+      {
+        id: 34,
+        topic: "Design",
+        value: "Figma",
+      },
+      {
+        id: 35,
+        topic: "Experience",
+        value: "5 Years",
+      },
+    ],
+  },
+  {
+    id: 4,
     title: "Work",
     component: "work",
     content: [
       {
-        id: 31,
+        id: 41,
         paragraph:
           "I am a self-taught front-end developer, from the county of Ard Mhacha (Armagh), living in Scotlands capital, Edinburgh.",
       },
       {
-        id: 32,
+        id: 42,
         paragraph:
           "I have a passion for design and development, to utilise my craft and create value where digitally required. When I am not coding, you will find me immersed in either video games or gaelic football.",
       },
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "The Adventure so far",
     component: "bio",
     content: [
       {
-        id: 41,
+        id: 51,
         date: "1991",
         context: "Ready player one...",
       },
       {
-        id: 42,
+        id: 52,
         date: "2009",
         context: "Completed BTEC National Diploma in Computer Games Design",
       },
       {
-        id: 43,
+        id: 53,
         date: "2015",
         context:
           "Game Design & Production Management with Honours achieved from the",
@@ -88,64 +115,52 @@ export const sections = [
         },
       },
       {
-        id: 44,
+        id: 54,
         date: "2017",
         context:
           "Worked as a SharePoint Developer at the Tesco Customer Engagement Centre, Dundee.",
       },
       {
-        id: 45,
+        id: 55,
         date: "2022",
         context: "Left Tesco and now focusing on personal development.",
       },
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Interests",
     component: "interests",
-    content: [
-      {
-        id: 51,
-        paragraph:
-          "When I am not coding, you will find me immersed in video games, gaelic football, drawing, looking over Dribbble, Awwwards and Pixel Art.",
-      },
-    ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Web Links",
     component: "weblinks",
     content: [
       {
-        id: 61,
+        id: 71,
         title: "@KearneyDevs",
         link: "https://github.com/KearneyDevs",
         Icon: AiFillGithub,
       },
       {
-        id: 62,
+        id: 72,
         title: "@Kearney_Devs",
         link: "https://twitter.com/Kearney_Devs",
         Icon: AiOutlineTwitter,
       },
       {
-        id: 63,
+        id: 73,
         title: "@kearneydevs",
         link: "https://www.instagram.com/kearneydevs/",
         Icon: AiOutlineInstagram,
       },
       {
-        id: 64,
+        id: 74,
         title: "@shane-kearney",
         link: "https://www.linkedin.com/in/shane-kearney-bb347765/",
         Icon: AiFillLinkedin,
       },
     ],
-  },
-  {
-    id: 7,
-    title: "",
-    component: "footer",
   },
 ];

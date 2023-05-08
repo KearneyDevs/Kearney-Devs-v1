@@ -1,13 +1,31 @@
-import { Title, Section } from "../styled/Styles";
+import { Title, Section, Content } from "../styled/Styles";
 
 const Interests = (props) => {
   return (
     <Section>
       <Title>{props.section.title}</Title>
 
-      {props.section.content.map((p) => {
-        return <p key={p.id}>{p.paragraph}</p>;
-      })}
+      <Content>
+        <p>
+          When I am not coding, you will find me immersed in video games,{" "}
+          <a
+            href="https://en.wikipedia.org/wiki/Gaelic_football"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Gaelic Football
+          </a>
+          , drawing, looking over{" "}
+          <a href="https://dribbble.com/" target="_blank" rel="noreferrer">
+            Dribbble
+          </a>
+          ,{" "}
+          <a href="https://www.awwwards.com/" target="_blank" rel="noreferrer">
+            Awwwards
+          </a>{" "}
+          and Pixel Art.
+        </p>
+      </Content>
     </Section>
   );
 };
