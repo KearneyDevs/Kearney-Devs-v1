@@ -8,13 +8,11 @@ import Footer from "./components/footer/Footer";
 function App() {
   return (
     <Theme>
-      <div className="App">
-        <AppContainer>
-          <GlobalStyle />
-          {sections.map((section) => Components(section))}
-        </AppContainer>
-        <Footer />
-      </div>
+      <AppContainer>
+        <GlobalStyle />
+        {sections.map((section) => Components(section))}
+      </AppContainer>
+      <Footer />
     </Theme>
   );
 }
