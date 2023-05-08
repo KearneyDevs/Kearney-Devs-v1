@@ -69,23 +69,6 @@ export const sections = [
     ],
   },
   {
-    id: 4,
-    title: "Work",
-    component: "work",
-    content: [
-      {
-        id: 41,
-        paragraph:
-          "I am a self-taught front-end developer, from the county of Ard Mhacha (Armagh), living in Scotlands capital, Edinburgh.",
-      },
-      {
-        id: 42,
-        paragraph:
-          "I have a passion for design and development, to utilise my craft and create value where digitally required. When I am not coding, you will find me immersed in either video games or gaelic football.",
-      },
-    ],
-  },
-  {
     id: 5,
     title: "The Adventure so far",
     component: "bio",

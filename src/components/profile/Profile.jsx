@@ -1,5 +1,5 @@
 import { useTheme } from "styled-components";
-import profile from "../../imgs/Shane_Kearney.png";
+import profile from "../../imgs/Shane_Kearney.jpg";
 import { Section } from "../styled/Styles";
 import { ProfileContainer } from "./Profile.style";
 
