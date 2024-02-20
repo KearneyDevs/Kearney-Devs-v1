@@ -60,9 +60,8 @@ const Bio = (props) => {
             <tr>
               <td>2022</td>
               <td>
-                to present. As a Front-End Developer I am working as part of a
-                small team that is utilising AWS to deliver severless
-                functionality at{" "}
+                As a Front-End Developer I worked as part of a small team that
+                utilised AWS to deliver severless functionality at{" "}
                 <a
                   href="https://www.exceptionuk.com/"
                   target="_blank"
@@ -71,6 +70,13 @@ const Bio = (props) => {
                   Exception
                 </a>
                 .
+              </td>
+            </tr>
+            <tr>
+              <td>2024</td>
+              <td>
+                Currently looking for a new position, using my spare time to
+                enhance my skills.
               </td>
             </tr>
           </tbody>
