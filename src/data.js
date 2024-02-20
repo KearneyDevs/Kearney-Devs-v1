@@ -69,6 +69,11 @@ export const sections = [
     ],
   },
   {
+    id: 4,
+    title: "Work",
+    component: "work",
+  },
+  {
     id: 5,
     title: "The Adventure so far",
     component: "bio",
