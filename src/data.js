@@ -1,5 +1,5 @@
 import { AiFillGithub } from "react-icons/ai";
-import { AiOutlineTwitter } from "react-icons/ai";
+import { RiTwitterXFill } from "react-icons/ri";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 
@@ -113,7 +113,7 @@ export const sections = [
         id: 72,
         title: "@Kearney_Devs",
         link: "https://twitter.com/Kearney_Devs",
-        Icon: AiOutlineTwitter,
+        Icon: RiTwitterXFill,
       },
       {
         id: 73,
