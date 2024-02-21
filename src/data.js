@@ -3,10 +3,6 @@ import { AiOutlineTwitter } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 
-function getYearsExperience() {
-  return `${new Date().getFullYear() - 2017} Years`;
-}
-
 export const sections = [
   {
     id: 1,
@@ -46,7 +42,7 @@ export const sections = [
       {
         id: 35,
         topic: "Experience",
-        value: getYearsExperience(),
+        value: `${new Date().getFullYear() - 2017} Years`,
       },
     ],
   },
