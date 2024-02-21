@@ -1,9 +1,7 @@
 import { Nav } from "./Header.style";
 import logo from "../../imgs/Icon2.svg";
 
-const Header = (props) => {
-  console.log(props);
-
+const Header = () => {
   return (
     <Nav>
       <a href="/">

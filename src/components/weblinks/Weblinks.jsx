@@ -2,8 +2,6 @@ import { List } from "./Weblinks.style";
 import { Title, Section } from "../styled/Styles";
 
 const Weblinks = (props) => {
-  console.log(props);
-
   return (
     <Section>
       <Title>{props.section.title}</Title>

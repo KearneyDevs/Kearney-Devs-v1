@@ -1,12 +1,8 @@
-import { useTheme } from "styled-components";
 import profile from "../../imgs/Shane_Kearney.jpg";
 import { Section } from "../styled/Styles";
 import { ProfileContainer } from "./Profile.style";
 
 const Profile = (props) => {
-  const theme = useTheme();
-  console.log(theme.colors);
-
   return (
     <Section>
       <ProfileContainer>
