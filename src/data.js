@@ -3,6 +3,10 @@ import { AiOutlineTwitter } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 
+function getYearsExperience() {
+  return `${new Date().getFullYear() - 2017} Years`;
+}
+
 export const sections = [
   {
     id: 1,
@@ -18,28 +22,6 @@ export const sections = [
       title: "Shane Kearney",
       handle: "KearneyDevs",
     },
-    content: [
-      {
-        id: 22,
-        topic: "Profession",
-        value: "Front-End Developer",
-      },
-      {
-        id: 23,
-        topic: "Framework",
-        value: "ReactJS",
-      },
-      {
-        id: 24,
-        topic: "Design",
-        value: "Figma",
-      },
-      {
-        id: 25,
-        topic: "Experience",
-        value: "5 Years",
-      },
-    ],
   },
   {
     id: 3,
@@ -64,7 +46,7 @@ export const sections = [
       {
         id: 35,
         topic: "Experience",
-        value: "5 Years",
+        value: getYearsExperience(),
       },
     ],
   },
