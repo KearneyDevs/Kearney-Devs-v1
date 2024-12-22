@@ -29,7 +29,7 @@ export default function createSections(section: SectionProps) {
   const Component = Components[section.component];
 
   if (Component) {
-    return <Component key={section.id} section={section} />;
+    return <Component key={section.id} {...section} />;
   }
 
   return (
