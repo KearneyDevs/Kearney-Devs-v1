@@ -36,14 +36,6 @@ const About = (props: SectionProps) => {
           >
             Éire
           </a>
-          , now living in Scotland's capital,{" "}
-          <a
-            href="https://www.google.com/maps/place/Edinburgh/@55.941153,-3.5349628,10z/data=!3m1!4b1!4m6!3m5!1s0x4887b800a5982623:0x64f2147b7ce71727!8m2!3d55.953252!4d-3.188267!16zL20vMDJtNzc"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Edinburgh
-          </a>
           .
         </p>
         <p>

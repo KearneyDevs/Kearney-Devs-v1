@@ -11,9 +11,7 @@ export const ProfileContainer = styled.div`
     height: 150px;
     border-radius: 50%;
     border: ${(props) => `3px solid ${props.theme.colors.primary}`};
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    object-fit: cover;
     filter: drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.25));
   }
 
