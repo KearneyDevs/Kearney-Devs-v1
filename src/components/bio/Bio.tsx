@@ -11,8 +11,54 @@ const Bio = (props: SectionProps) => {
         <Table>
           <tbody>
             <tr>
-              <td>1991</td>
-              <td>Ready player one...</td>
+              <td>2026</td>
+              <td>
+                As of October I am looking for a new position, using my spare
+                time to enhance my skills.
+              </td>
+            </tr>
+            <tr>
+              <td>2024</td>
+              <td>
+                Remote Front-End Developer contributing to the ongoing
+                development of the{" "}
+                <a
+                  href="https://xergy.com/#why"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Proteus
+                </a>{" "}
+                platform using React, TypeScript, and Tailwind CSS within an
+                agile team at{" "}
+                <a href="https://xergy.com/" target="_blank" rel="noreferrer">
+                  Xergy
+                </a>
+                .
+              </td>
+            </tr>
+            <tr>
+              <td>2022</td>
+              <td>
+                As a Front-End Developer I worked as part of a small team that
+                utilised AWS to deliver severless functionality at{" "}
+                <a
+                  href="https://www.exceptionuk.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Exception
+                </a>
+                .
+              </td>
+            </tr>
+            <tr>
+              <td>2017</td>
+              <td>
+                Front-End Developer utilising SharePoint online, and creating
+                applications using AngularJS and ReactJS at the Tesco Customer
+                Engagement Centre in Dundee.
+              </td>
             </tr>
             <tr>
               <td>2009</td>
@@ -41,7 +87,7 @@ const Bio = (props: SectionProps) => {
                 </a>
                 ,{" "}
                 <a
-                  href="https://www.google.com/maps/place/dundee/data=!4m2!3m1!1s0x48864144ab639cd3:0x94e43b1e384be52a?sa=X&ved=2ahUKEwiT86aX0ub-AhUKUcAKHY2aDNkQ8gF6BAhnEAI"
+                  href="https://www.google.com/maps/place/dundee/data!4m2!3m1!1s0x48864144ab639cd3:0x94e43b1e384be52a"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -51,34 +97,8 @@ const Bio = (props: SectionProps) => {
               </td>
             </tr>
             <tr>
-              <td>2017</td>
-              <td>
-                Front-End Developer utilising SharePoint online, and creating
-                applications using AngularJS and ReactJS at the Tesco Customer
-                Engagement Centre in Dundee.
-              </td>
-            </tr>
-            <tr>
-              <td>2022</td>
-              <td>
-                As a Front-End Developer I worked as part of a small team that
-                utilised AWS to deliver severless functionality at{" "}
-                <a
-                  href="https://www.exceptionuk.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Exception
-                </a>
-                .
-              </td>
-            </tr>
-            <tr>
-              <td>2024</td>
-              <td>
-                Currently looking for a new position, using my spare time to
-                enhance my skills.
-              </td>
+              <td>1991</td>
+              <td>Ready player one...</td>
             </tr>
           </tbody>
         </Table>
