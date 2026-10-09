@@ -18,7 +18,7 @@ const Bio = (props: SectionProps) => {
               </td>
             </tr>
             <tr>
-              <td>2024</td>
+              <td>2024 - 2026</td>
               <td>
                 Remote Front-End Developer contributing to the ongoing
                 development of the{" "}
@@ -38,7 +38,7 @@ const Bio = (props: SectionProps) => {
               </td>
             </tr>
             <tr>
-              <td>2022</td>
+              <td>2022 - 2024</td>
               <td>
                 As a Front-End Developer I worked as part of a small team that
                 utilised AWS to deliver severless functionality at{" "}
@@ -53,7 +53,7 @@ const Bio = (props: SectionProps) => {
               </td>
             </tr>
             <tr>
-              <td>2017</td>
+              <td>2017 - 2022</td>
               <td>
                 Front-End Developer utilising SharePoint online, and creating
                 applications using AngularJS and ReactJS at the Tesco Customer
@@ -61,20 +61,7 @@ const Bio = (props: SectionProps) => {
               </td>
             </tr>
             <tr>
-              <td>2009</td>
-              <td>
-                Completed BTEC National Diploma in Computer Games Design at the{" "}
-                <a
-                  href="https://www.src.ac.uk/about-us/campuses/armagh-campus"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Southern Regional College, &#40;Armagh Campus&#41;
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td>2009</td>
+              <td>2010 - 2015</td>
               <td>
                 Game Design & Production Management with Honours achieved from
                 the{" "}
@@ -94,6 +81,19 @@ const Bio = (props: SectionProps) => {
                   Dundee
                 </a>
                 .
+              </td>
+            </tr>
+            <tr>
+              <td>2007 - 2009</td>
+              <td>
+                Completed BTEC National Diploma in Computer Games Design at the{" "}
+                <a
+                  href="https://www.src.ac.uk/about-us/campuses/armagh-campus"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Southern Regional College, &#40;Armagh Campus&#41;
+                </a>
               </td>
             </tr>
             <tr>
